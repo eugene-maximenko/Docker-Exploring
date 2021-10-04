@@ -4,12 +4,14 @@
   "description": "Node.js on Docker",
   "main": "print.js",
   "scripts": {
-    "start": "node print.js"
+    "start": "node print.js",
+    "dev": "nodemon venv/print.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13"
   }
 }
